@@ -48,8 +48,8 @@ def centered_star_pyramid(n):
     result = ""
     for i in range(1, n + 1):
         result += '*' * (2 * i - 1)
-        result += ' ' * (n - 1)
-        
-    result += "\n"
-
+        result += ' \n' * (n - 1)
+    
+    
+    
     return (result.strip())
